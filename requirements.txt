@@ -1,0 +1,14 @@
+assertpy==1.1
+behave==1.2.6
+certifi==2020.11.8
+chardet==3.0.4
+idna==2.10
+parse==1.18.0
+parse-type==0.5.2
+PyJWT==1.7.1
+requests==2.25.0
+six==1.15.0
+urllib3==1.26.1
+python-dateutil==2.8.1
+pylint==2.6.0
+dateparser==1.0.0

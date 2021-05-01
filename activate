@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+# Check the activate script has being sourced before running it.
+[[ "$0" != "$BASH_SOURCE" ]] && . ./venv/bin/activate ||
+cat << "EOF"
+                    ____ 
+                  .'* *.'
+               __/_*_*(_
+              / _______ \
+             _\_)/___\(_/_ 
+            / _((\- -/))_ \
+            \ \())(-)(()/ /
+             ' \(((()))/ '
+            / ' \)).))/ ' \
+           / _ \ - | - /_  \
+          (   ( .;''';. .'  )
+          _\"__ /    )\ __"/_    source is the source of a sorcerer
+            \/  \   ' /  \/
+             .'  '...' ' )       Remember!
+              / /  |  \ \
+             / .   .   . \             source activate
+            /   .     .   \
+           /   /   |   \   \
+         .'   /    b    '.  '.
+     _.-'    /     Bb     '-. '-._ 
+ _.-'       |      BBb       '-.  '-. 
+(________mrf\____.dBBBb.________)____)
+EOF
