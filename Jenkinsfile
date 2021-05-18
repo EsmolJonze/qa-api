@@ -15,7 +15,8 @@ pipeline {
             sh '''steps {
 
 sh \'pip install --upgrade pip\'
-sh \'curl https://bootstrap.pypa.io./get-pip.py | python3\''''
+sh \'curl https://bootstrap.pypa.io./get-pip.py | python3\'
+}'''
             }
           }
 
