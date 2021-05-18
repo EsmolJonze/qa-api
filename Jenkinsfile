@@ -12,8 +12,7 @@ pipeline {
 
         stage('Install Dependencies') {
           steps {
-            sh '''sh \'pip install --upgrade pip\'
-sh \'curl https://bootstrap.pypa.io./get-pip.py | python3\'
+            sh '''sh \'curl https://bootstrap.pypa.io./get-pip.py | python3\'
 '''
           }
         }
