@@ -1,22 +1,15 @@
 pipeline {
   agent any
   stages {
-    stage('Checkout API') {
-      parallel {
-        stage('Checkout API') {
-          steps {
-            sh '''git --version
-'''
-          }
-        }
+    stage('Inicio') {
+      steps {
+        echo 'Hola desde la tierra'
+      }
+    }
 
-        stage('Install Dependencies') {
-          steps {
-            sh '''sh \'curl https://bootstrap.pypa.io./get-pip.py | python3\'
-'''
-          }
-        }
-
+    stage('Test 2') {
+      steps {
+        echo 'Hola desde la Luna'
       }
     }
 
